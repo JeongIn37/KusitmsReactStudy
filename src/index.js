@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AAA from './component/AAA';
 import reportWebVitals from './reportWebVitals';
+
+/*
+1. 쓰기 전에 import 하자
+2. 쓰기 위해 export 하자
+*/
 
 ReactDOM.render(
   <React.StrictMode>
