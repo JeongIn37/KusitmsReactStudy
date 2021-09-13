@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import AAA from './component/AAA';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from "react-router-dom";
 
 /*
 1. 쓰기 전에 import 하자
@@ -12,7 +13,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
